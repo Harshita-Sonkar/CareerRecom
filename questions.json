@@ -1,0 +1,834 @@
+{
+    "questions": [
+      {
+        "question": "What is your favourite outdoor sport?",
+        "options": [
+          "Football/Soccer",
+          "Swimming",
+          "Cricket",
+          "Tennis",
+          "Running",
+          "Basketball"
+        ],
+        "mapping": {
+          "Football/Soccer": {
+            "Relationships": 5,
+            "Support": 4,
+            "Achievement": 3
+          },
+          "Swimming": {
+            "Independence": 5,
+            "Achievement": 4,
+            "Working Conditions": 3
+          },
+          "Cricket": {
+            "Achievement": 5,
+            "Relationships": 4,
+            "Recognition": 3
+          },
+          "Tennis": {
+            "Independence": 5,
+            "Recognition": 4,
+            "Achievement": 4
+          },
+          "Running": {
+            "Independence": 5,
+            "Achievement": 4,
+            "Working Conditions": 3
+          },
+          "Basketball": {
+            "Recognition": 5,
+            "Relationships": 4,
+            "Support": 3
+          }
+        }
+      },
+      {
+        "question": "What is your favourite indoor sport?",
+        "options": [
+          "Table Tennis",
+          "Badminton",
+          "Chess",
+          "Checkers",
+          "Carrom",
+          "Kho Kho"
+        ],
+        "mapping": {
+          "Table Tennis": {
+            "Recognition": 5,
+            "Achievement": 4,
+            "Working Conditions": 3
+          },
+          "Badminton": {
+            "Achievement": 5,
+            "Relationships": 4,
+            "Recognition": 3
+          },
+          "Chess": {
+            "Independence": 5,
+            "Achievement": 5,
+            "Working Conditions": 3
+          },
+          "Checkers": {
+            "Independence": 4,
+            "Achievement": 4,
+            "Working Conditions": 3
+          },
+          "Carrom": {
+            "Relationships": 5,
+            "Support": 4,
+            "Working Conditions": 3
+          },
+          "Kho Kho": {
+            "Relationships": 5,
+            "Support": 4,
+            "Achievement": 3
+          }
+        }
+      },
+      {
+        "question": "What are your interests and hobbies",
+        "options": [
+          "Reading",
+          "Writing",
+          "Painting",
+          "Debates",
+          "Dancing",
+          "Music"
+        ],
+        "mapping": {
+          "Reading": {
+            "Independence": 5,
+            "Achievement": 3,
+            "Working Conditions": 4
+          },
+          "Writing": {
+            "Independence": 5,
+            "Recognition": 4,
+            "Achievement": 3
+          },
+          "Painting": {
+            "Recognition": 5,
+            "Independence": 4,
+            "Working Conditions": 3
+          },
+          "Debates": {
+            "Recognition": 5,
+            "Relationships": 4,
+            "Achievement": 3
+          },
+          "Dancing": {
+            "Recognition": 5,
+            "Relationships": 4,
+            "Support": 3
+          },
+          "Music": {
+            "Recognition": 5,
+            "Independence": 4,
+            "Working Conditions": 3
+          }
+        }
+      },
+      {
+        "question": "Which extracurricular activity do you enjoy the most?",
+        "options": [
+          "Team Sports (e.g., Football, Basketball)",
+          "Volunteering/Community Service",
+          "Arts/Theater/Music",
+          "Academic Clubs (Debate, Robotics)",
+          "Part-Time Work/Internships"
+        ],
+        "mapping": {
+          "Team Sports (e.g., Football, Basketball)": {
+            "Relationships": 5,
+            "Support": 4,
+            "Achievement": 3
+          },
+          "Volunteering/Community Service": {
+            "Social": 5,
+            "Support": 4,
+            "Working Conditions": 3
+          },
+          "Arts/Theater/Music": {
+            "Recognition": 5,
+            "Independence": 4,
+            "Achievement": 3
+          },
+          "Academic Clubs (Debate, Robotics)": {
+            "Achievement": 5,
+            "Investigative": 4,
+            "Critical Thinking": 4
+          },
+          "Part-Time Work/Internships": {
+            "Working Conditions": 5,
+            "Realistic": 4,
+            "Conventional": 3
+          }
+        }
+      },
+      {
+        "question": "You're offered two career paths: a stable role with routine work vs. a risky role with innovation opportunities. Which do you choose?",
+        "options": [
+          "Stable role with predictable growth",
+          "Risky role with high creative freedom",
+          "Negotiate a hybrid of both paths",
+          "Delay decision to gather more information"
+        ],
+        "mapping": {
+          "Stable role with predictable growth": {
+            "Working Conditions": 5,
+            "Conventional": 4,
+            "Support": 3
+          },
+          "Risky role with high creative freedom": {
+            "Enterprising": 5,
+            "Independence": 4,
+            "Recognition": 3
+          },
+          "Negotiate a hybrid of both paths": {
+            "Social": 5,
+            "Adaptability": 4,
+            "Problem-Solving": 3
+          },
+          "Delay decision to gather more information": {
+            "Investigative": 5,
+            "Critical Thinking": 4,
+            "Realistic": 3
+          }
+        }
+      },
+      {
+        "question": "A junior colleague asks for your guidance on a project. How do you respond?",
+        "options": [
+          "Offer hands-on mentorship and regular check-ins",
+          "Share resources and let them explore independently",
+          "Introduce them to a more experienced mentor",
+          "Decline politely due to your workload"
+        ],
+        "mapping": {
+          "Offer hands-on mentorship and regular check-ins": {
+            "Relationships": 5,
+            "Social": 4,
+            "Support": 3
+          },
+          "Share resources and let them explore independently": {
+            "Independence": 5,
+            "Investigative": 4,
+            "Achievement": 3
+          },
+          "Introduce them to a more experienced mentor": {
+            "Social": 5,
+            "Support": 4,
+            "Working Conditions": 3
+          },
+          "Decline politely due to your workload": {
+            "Conventional": 5,
+            "Working Conditions": 4,
+            "Realistic": 3
+          }
+        }
+      },
+      {
+        "question": "Your manager asks you to focus on improving either technical expertise or leadership skills this quarter. Which do you prioritize?",
+        "options": [
+          "Deepen technical skills through certifications",
+          "Develop team management abilities",
+          "Balance both through mentorship programs",
+          "Focus on client-facing communication skills"
+        ],
+        "mapping": {
+          "Deepen technical skills through certifications": {
+            "Investigative": 5,
+            "Realistic": 4,
+            "Achievement": 3
+          },
+          "Develop team management abilities": {
+            "Leadership": 5,
+            "Social": 4,
+            "Relationships": 3
+          },
+          "Balance both through mentorship programs": {
+            "Adaptability": 5,
+            "Support": 4,
+            "Critical Thinking": 3
+          },
+          "Focus on client-facing communication skills": {
+            "Enterprising": 5,
+            "Communication": 4,
+            "Recognition": 3
+          }
+        }
+      },
+      {
+        "question": "Your team is divided on two conflicting approaches to complete a critical project. Deadlines are approaching. How do you resolve this?",
+        "options": [
+          "Facilitate a discussion to merge the best ideas from both approaches.",
+          "Assign tasks based on individual strengths to minimize friction.",
+          "Set clear ground rules for decision-making and put it to a vote.",
+          "Escalate to a supervisor to make the final call."
+        ],
+        "mapping": {
+          "Facilitate a discussion to merge the best ideas from both approaches.": {
+            "Relationships": 5,
+            "Problem-Solving": 4,
+            "Social": 4
+          },
+          "Assign tasks based on individual strengths to minimize friction.": {
+            "Management of Personnel Resources": 5,
+            "Adaptability": 4,
+            "Realistic": 4
+          },
+          "Set clear ground rules for decision-making and put it to a vote.": {
+            "Conventional": 5,
+            "Leadership": 4,
+            "Support": 3
+          },
+          "Escalate to a supervisor to make the final call.": {
+            "Support": 5,
+            "Working Conditions": 4,
+            "Conventional": 4
+          }
+        }
+      },
+      {
+        "question": "You are a customer service representative. A customer calls, furious because their recent order arrived damaged. They're demanding a full refund and threatening to leave negative reviews online. How do you respond?",
+        "options": [
+          "Listen empathetically to the customer's complaint, apologize for the inconvenience, and assure them you'll do everything to resolve the issue.",
+          "Explain the company's return policy and offer a replacement product, even if it's slightly more expensive than what they originally ordered.",
+          "Offer a full refund immediately, without requiring the customer to return the damaged product, to de-escalate the situation quickly.",
+          "Document the customer's complaint thoroughly and escalate it to a supervisor for further handling."
+        ],
+        "mapping": {
+          "Listen empathetically to the customer's complaint, apologize for the inconvenience, and assure them you'll do everything to resolve the issue.": {
+            "Active Listening": 5,
+            "Service Orientation": 5,
+            "Social": 4,
+            "Realistic": 4
+          },
+          "Explain the company's return policy and offer a replacement product, even if it's slightly more expensive than what they originally ordered.": {
+            "Problem-Solving": 4,
+            "Customer Service": 4,
+            "Negotiation": 4,
+            "Conventional": 4
+          },
+          "Offer a full refund immediately, without requiring the customer to return the damaged product, to de-escalate the situation quickly.": {
+            "Judgment and Decision Making": 2,
+            "Social": 5,  
+            "Enterprising": 2,
+            "Relationships": 5
+          },
+          "Document the customer's complaint thoroughly and escalate it to a supervisor for further handling.": {
+            "Record Keeping": 4,
+            "Communication": 4,
+            "Conventional": 5
+          }
+        }
+      },
+      {
+        "question": "A client rejects your team's proposal, calling it impractical. How do you respond?",
+        "options": [
+          "Request detailed feedback to improve the proposal",
+          "Defend your approach with data and case studies",
+          "Offer alternative solutions immediately",
+          "Escalate to senior leadership for guidance"
+        ],
+        "mapping": {
+          "Request detailed feedback to improve the proposal": {
+            "Social": 5,
+            "Support": 4,
+            "Achievement": 3
+          },
+          "Defend your approach with data and case studies": {
+            "Investigative": 5,
+            "Critical Thinking": 4,
+            "Recognition": 3
+          },
+          "Offer alternative solutions immediately": {
+            "Adaptability": 5,
+            "Problem-Solving": 4,
+            "Enterprising": 3
+          },
+          "Escalate to senior leadership for guidance": {
+            "Working Conditions": 5,
+            "Conventional": 4,
+            "Support": 3
+          }
+        }
+      },
+      {
+        "question": "Your job demands long hours, affecting your personal life. How do you handle it?",
+        "options": [
+          "Negotiate flexible hours with your manager",
+          "Prioritize tasks to improve efficiency",
+          "Accept it as part of the job for career growth",
+          "Seek a new role with better work-life balance"
+        ],
+        "mapping": {
+          "Negotiate flexible hours with your manager": {
+            "Adaptability": 5,
+            "Social": 4,
+            "Support": 3
+          },
+          "Prioritize tasks to improve efficiency": {
+            "Time Management": 5,
+            "Critical Thinking": 4,
+            "Achievement": 3
+          },
+          "Accept it as part of the job for career growth": {
+            "Working Conditions": 5,
+            "Conventional": 4,
+            "Recognition": 3
+          },
+          "Seek a new role with better work-life balance": {
+            "Independence": 5,
+            "Enterprising": 4,
+            "Realistic": 3
+          }
+        }
+      },
+      {
+        "question": "You discover a coworker is misusing company resources. What do you do?",
+        "options": [
+          "Confront the coworker directly to address the issue",
+          "Report the behavior to your manager anonymously",
+          "Document the issue and monitor for escalation",
+          "Ignore it to avoid workplace conflict"
+        ],
+        "mapping": {
+          "Confront the coworker directly to address the issue": {
+            "Integrity": 5,
+            "Social": 4,
+            "Relationships": 3
+          },
+          "Report the behavior to your manager anonymously": {
+            "Conventional": 5,
+            "Working Conditions": 4,
+            "Support": 3
+          },
+          "Document the issue and monitor for escalation": {
+            "Investigative": 5,
+            "Critical Thinking": 4,
+            "Achievement": 3
+          },
+          "Ignore it to avoid workplace conflict": {
+            "Realistic": 5,
+            "Working Conditions": 4,
+            "Independence": 3
+          }
+        }
+      },
+      {
+        "question": "A sudden policy change disrupts your team’s workflow. What’s your first step?",
+        "options": [
+          "Analyze the new policy to identify opportunities for improvement.",
+          "Organize a training session to help the team adapt quickly.",
+          "Create a step-by-step guide to comply with the changes.",
+          "Voice concerns to leadership while following the policy."
+        ],
+        "mapping": {
+          "Analyze the new policy to identify opportunities for improvement.": {
+            "Investigative": 5,
+            "Critical Thinking": 4,
+            "Achievement": 3
+          },
+          "Organize a training session to help the team adapt quickly.": {
+            "Leadership": 5,
+            "Social": 4,
+            "Support": 4
+          },
+          "Create a step-by-step guide to comply with the changes.": {
+            "Conventional": 5,
+            "Attention to Detail": 4,
+            "Working Conditions": 4
+          },
+          "Voice concerns to leadership while following the policy.": {
+            "Integrity": 5,
+            "Communication": 4,
+            "Recognition": 3
+          }
+        }
+      },
+      {
+        "question": "You're a marketing manager launching a new product. Initial sales are lower than projected. What's your first step?",
+        "options": [
+          "Conduct market research to understand why the product isn't resonating with customers and identify any unmet needs.",
+          "Increase advertising spend and explore new marketing channels to reach a wider audience.",
+          "Analyze sales data to identify any patterns or trends that might explain the lower-than-expected performance.",
+          "Refine the product's messaging and value proposition to better communicate its benefits to potential customers."
+        ],
+        "mapping": {
+          "Conduct market research to understand why the product isn't resonating with customers and identify any unmet needs.": {
+            "Market Research": 5,
+            "Critical Thinking": 4,
+            "Investigative": 5,
+            "Realistic": 4
+          },
+          "Increase advertising spend and explore new marketing channels to reach a wider audience.": {
+            "Marketing": 4,
+            "Sales Strategy": 4,
+            "Enterprising": 4,
+            "Conventional": 4
+          },
+          "Analyze sales data to identify any patterns or trends that might explain the lower-than-expected performance.": {
+            "Data Analysis": 5,
+            "Critical Thinking": 5,
+            "Investigative": 4,
+            "Realistic": 5
+          },
+          "Refine the product's messaging and value proposition to better communicate its benefits to potential customers.": {
+            "Marketing": 4,
+            "Communication": 4,
+            "Creativity": 4,
+            "Artistic": 4
+          }
+        }
+      },
+      {
+        "question": "A major project you led fails to meet expectations. What’s your next step?",
+        "options": [
+          "Analyze the failure to identify lessons for improvement",
+          "Take full responsibility and apologize to stakeholders",
+          "Focus on the next project to regain confidence",
+          "Seek mentorship to strengthen your skills"
+        ],
+        "mapping": {
+          "Analyze the failure to identify lessons for improvement": {
+            "Investigative": 5,
+            "Critical Thinking": 4,
+            "Achievement": 3
+          },
+          "Take full responsibility and apologize to stakeholders": {
+            "Integrity": 5,
+            "Social": 4,
+            "Support": 3
+          },
+          "Focus on the next project to regain confidence": {
+            "Adaptability": 5,
+            "Enterprising": 4,
+            "Recognition": 3
+          },
+          "Seek mentorship to strengthen your skills": {
+            "Relationships": 5,
+            "Support": 4,
+            "Working Conditions": 3
+          }
+        }
+      },
+      {
+        "question": "You’re assigned three urgent tasks with overlapping deadlines. How do you proceed?",
+        "options": [
+          "Rank tasks by business impact and tackle the most critical first.",
+          "Break tasks into smaller steps and delegate where possible.",
+          "Negotiate deadline extensions for lower-priority items.",
+          "Work extra hours to complete all tasks simultaneously."
+        ],
+        "mapping": {
+          "Rank tasks by business impact and tackle the most critical first.": {
+            "Critical Thinking": 5,
+            "Achievement": 4,
+            "Realistic": 4
+          },
+          "Break tasks into smaller steps and delegate where possible.": {
+            "Time Management": 5,
+            "Teamwork": 4,
+            "Management of Personnel Resources": 4
+          },
+          "Negotiate deadline extensions for lower-priority items.": {
+            "Negotiation": 5,
+            "Adaptability": 4,
+            "Enterprising": 4
+          },
+          "Work extra hours to complete all tasks simultaneously.": {
+            "Persistence": 5,
+            "Working Conditions": 4,
+            "Conventional": 3
+          }
+        }
+      },
+      {
+        "question": "You are a software developer. You've been tasked with implementing a new feature in a complex software system. You realize that the current system architecture isn't well-suited for this new functionality. What do you do?",
+        "options": [
+          "Discuss the architectural limitations with the project lead and suggest potential solutions, including refactoring or redesigning parts of the system.",
+          "Try to implement the feature within the existing architecture, even if it's not ideal, to meet the immediate deadline.",
+          "Research best practices for implementing similar features in other systems and propose a plan for adapting those practices to the current project.",
+          "Document the architectural challenges and their potential impact on the project's long-term maintainability and scalability."
+        ],
+        "mapping": {
+          "Discuss the architectural limitations with the project lead and suggest potential solutions, including refactoring or redesigning parts of the system.": {
+            "Problem-Solving": 5,
+            "Communication": 4,
+            "Systems Analysis": 5,
+            "Conventional": 4
+          },
+          "Try to implement the feature within the existing architecture, even if it's not ideal, to meet the immediate deadline.": {
+            "Adaptability": 4,
+            "Time Management": 4,
+            "Realistic": 4
+          },
+          "Research best practices for implementing similar features in other systems and propose a plan for adapting those practices to the current project.": {
+            "Research Skills": 5,
+            "Technology Design": 4,
+            "Investigative": 5
+          },
+          "Document the architectural challenges and their potential impact on the project's long-term maintainability and scalability.": {
+            "Documentation": 4,
+            "Systems Analysis": 4,
+            "Critical Thinking": 4,
+            "Conventional": 5
+          }
+        }
+      },
+      {
+        "question": "You have an innovative idea that could disrupt your industry. What do you do?",
+        "options": [
+          "Pitch the idea to leadership with a detailed plan",
+          "Test the idea on a small scale before sharing",
+          "Collaborate with colleagues to refine the idea",
+          "Document the idea for future consideration"
+        ],
+        "mapping": {
+          "Pitch the idea to leadership with a detailed plan": {
+            "Enterprising": 5,
+            "Recognition": 4,
+            "Communication": 3
+          },
+          "Test the idea on a small scale before sharing": {
+            "Investigative": 5,
+            "Realistic": 4,
+            "Achievement": 3
+          },
+          "Collaborate with colleagues to refine the idea": {
+            "Relationships": 5,
+            "Social": 4,
+            "Support": 3
+          },
+          "Document the idea for future consideration": {
+            "Conventional": 5,
+            "Working Conditions": 4,
+            "Critical Thinking": 3
+          }
+        }
+      },
+      {
+        "question": "You discover a way to improve an outdated process, but colleagues resist change. What do you do?",
+        "options": [
+          "Build a prototype to demonstrate the benefits of your idea.",
+          "Align your proposal with team goals to gain buy-in.",
+          "Follow existing processes to avoid conflict.",
+          "Document the inefficiencies and escalate to leadership."
+        ],
+        "mapping": {
+          "Build a prototype to demonstrate the benefits of your idea.": {
+            "Innovation": 5,
+            "Enterprising": 4,
+            "Recognition": 3
+          },
+          "Align your proposal with team goals to gain buy-in.": {
+            "Persuasion": 5,
+            "Social": 4,
+            "Relationships": 4
+          },
+          "Follow existing processes to avoid conflict.": {
+            "Conventional": 5,
+            "Support": 4,
+            "Working Conditions": 3
+          },
+          "Document the inefficiencies and escalate to leadership.": {
+            "Systems Analysis": 5,
+            "Communication": 4,
+            "Achievement": 3
+          }
+        }
+      },
+      {
+        "question": "You're an HR manager. Several employees have reported feeling stressed and overwhelmed due to heavy workloads and tight deadlines. What actions do you take?",
+        "options": [
+          "Organize team-building activities and social events to improve morale and foster a more supportive work environment.",
+          "Review workload distribution and project timelines to identify potential imbalances and adjust them accordingly.",
+        
+          "Offer stress management workshops or resources to help employees cope with pressure and improve their well-being.",
+          "Conduct anonymous surveys to gather feedback on workload and identify any underlying issues contributing to stress."
+        ],
+        "mapping": {
+          "Organize team-building activities and social events to improve morale and foster a more supportive work environment.": {
+            "Teamwork": 4,
+            "Social": 4,
+            "Leadership": 4,
+            "Enterprising": 4
+          },
+          "Review workload distribution and project timelines to identify potential imbalances and adjust them accordingly.": {
+            "Project Management": 4,
+            "Management of Personnel Resources": 5,
+            "Conventional": 4,
+            "Realistic": 4
+          },
+          "Offer stress management workshops or resources to help employees cope with pressure and improve their well-being.": {
+            "Counseling and Guidance": 4,
+            "Human Resources": 5,
+            "Social": 4
+          },
+          "Conduct anonymous surveys to gather feedback on workload and identify any underlying issues contributing to stress.": {
+            "Social Perceptiveness": 5,
+            "Data Analysis": 4,
+            "Investigative": 4,
+            "Conventional": 4
+          }
+        }
+      },
+      {
+        "question": "You notice a coworker cutting corners that could compromise quality. How do you respond?",
+        "options": [
+          "Privately discuss the issue and offer to help improve the process.",
+          "Report the behavior anonymously to maintain workplace standards.",
+          "Address it directly in a team meeting to set an example.",
+          "Focus on your own work to avoid involvement."
+        ],
+        "mapping": {
+          "Privately discuss the issue and offer to help improve the process.": {
+            "Integrity": 5,
+            "Social": 4,
+            "Relationships": 4
+          },
+          "Report the behavior anonymously to maintain workplace standards.": {
+            "Conventional": 5,
+            "Working Conditions": 4,
+            "Support": 3
+          },
+          "Address it directly in a team meeting to set an example.": {
+            "Leadership": 5,
+            "Recognition": 4,
+            "Enterprising": 3
+          },
+          "Focus on your own work to avoid involvement.": {
+            "Independence": 5,
+            "Working Conditions": 4,
+            "Realistic": 3
+          }
+        }
+      },
+      {
+        "question": "You’re considering a career change to a completely new field. What’s your approach?",
+        "options": [
+          "Research the field thoroughly and network with professionals",
+          "Take online courses to build foundational skills",
+          "Seek a mentor in the new field for guidance",
+          "Start with a side project to test your interest"
+        ],
+        "mapping": {
+          "Research the field thoroughly and network with professionals": {
+            "Investigative": 5,
+            "Social": 4,
+            "Enterprising": 3
+          },
+          "Take online courses to build foundational skills": {
+            "Achievement": 5,
+            "Realistic": 4,
+            "Working Conditions": 3
+          },
+          "Seek a mentor in the new field for guidance": {
+            "Relationships": 5,
+            "Support": 4,
+            "Social": 3
+          },
+          "Start with a side project to test your interest": {
+            "Independence": 5,
+            "Enterprising": 4,
+            "Adaptability": 3
+          }
+        }
+      },
+      {
+        "question": "Your manager gives you critical feedback on your performance. How do you react?",
+        "options": [
+          "Ask for specific examples to improve",
+          "Reflect on the feedback and create an action plan",
+          "Defend your actions with data and context",
+          "Seek a second opinion from a trusted colleague"
+        ],
+        "mapping": {
+          "Ask for specific examples to improve": {
+            "Investigative": 5,
+            "Critical Thinking": 4,
+            "Achievement": 3
+          },
+          "Reflect on the feedback and create an action plan": {
+            "Adaptability": 5,
+            "Working Conditions": 4,
+            "Support": 3
+          },
+          "Defend your actions with data and context": {
+            "Enterprising": 5,
+            "Recognition": 4,
+            "Communication": 3
+          },
+          "Seek a second opinion from a trusted colleague": {
+            "Relationships": 5,
+            "Social": 4,
+            "Support": 3
+          }
+        }
+      },
+      {
+        "question": "Your team is demotivated due to a recent setback. How do you boost morale?",
+        "options": [
+          "Organize a team-building activity to reconnect",
+          "Set small, achievable goals to rebuild confidence",
+          "Acknowledge the setback and focus on lessons learned",
+          "Offer individual recognition for contributions"
+        ],
+        "mapping": {
+          "Organize a team-building activity to reconnect": {
+            "Relationships": 5,
+            "Social": 4,
+            "Support": 3
+          },
+          "Set small, achievable goals to rebuild confidence": {
+            "Achievement": 5,
+            "Critical Thinking": 4,
+            "Working Conditions": 3
+          },
+          "Acknowledge the setback and focus on lessons learned": {
+            "Integrity": 5,
+            "Social": 4,
+            "Adaptability": 3
+          },
+          "Offer individual recognition for contributions": {
+            "Recognition": 5,
+            "Enterprising": 4,
+            "Relationships": 3
+          }
+        }
+      },
+      {
+        "question": "You’re leading a team with diverse personalities. How do you manage them effectively?",
+        "options": [
+          "Adapt your leadership style to each individual",
+          "Set clear expectations and hold everyone accountable",
+          "Encourage open communication and feedback",
+          "Delegate tasks based on strengths and expertise"
+        ],
+        "mapping": {
+          "Adapt your leadership style to each individual": {
+            "Adaptability": 5,
+            "Social": 4,
+            "Relationships": 3
+          },
+          "Set clear expectations and hold everyone accountable": {
+            "Leadership": 5,
+            "Conventional": 4,
+            "Working Conditions": 3
+          },
+          "Encourage open communication and feedback": {
+            "Social": 5,
+            "Support": 4,
+            "Communication": 3
+          },
+          "Delegate tasks based on strengths and expertise": {
+            "Management of Personnel Resources": 5,
+            "Critical Thinking": 4,
+            "Achievement": 3
+          }
+        }
+      }
+    ]
+  }
